@@ -1,0 +1,179 @@
+{
+ "areas": [
+  {
+   "name": "Nong Pla Lai reservoir",
+   "ticker": "EASTW",
+   "kind": "reservoir",
+   "centre": [
+    12.95631,
+    101.25318
+   ],
+   "polygon": [
+    [
+     101.20463,
+     12.92056
+    ],
+    [
+     101.30174,
+     12.92056
+    ],
+    [
+     101.30174,
+     12.99207
+    ],
+    [
+     101.20463,
+     12.99207
+    ],
+    [
+     101.20463,
+     12.92056
+    ]
+   ],
+   "resolution_m": 30,
+   "source": "Reservoir named in Eastern Water (EASTW) pipeline network coverage (Bangkok Post, 2015: Nong Pla Lai, Dok Krai, Khlong Yai, Prasae). Outline from OpenStreetMap way 27940575 (อ่างเก็บน้ำหนองปลาไหล), box = outline bounding box plus 0.007 degrees.",
+   "notes": "Water extent proxy. Reservoirs are state owned; EASTW draws and sells from the connected system, so this is a partial, indirect proxy."
+  },
+  {
+   "name": "Khlong Yai reservoir",
+   "ticker": "EASTW",
+   "kind": "reservoir",
+   "centre": [
+    12.98193,
+    101.31628
+   ],
+   "polygon": [
+    [
+     101.28489,
+     12.95728
+    ],
+    [
+     101.34768,
+     12.95728
+    ],
+    [
+     101.34768,
+     13.00658
+    ],
+    [
+     101.28489,
+     13.00658
+    ],
+    [
+     101.28489,
+     12.95728
+    ]
+   ],
+   "resolution_m": 30,
+   "source": "Reservoir named in Eastern Water (EASTW) pipeline network coverage (Bangkok Post, 2015: Nong Pla Lai, Dok Krai, Khlong Yai, Prasae). Outline from OpenStreetMap way 128666867 (อ่างเก็บน้ำคลองใหญ่), box = outline bounding box plus 0.007 degrees.",
+   "notes": "Water extent proxy. Reservoirs are state owned; EASTW draws and sells from the connected system, so this is a partial, indirect proxy."
+  },
+  {
+   "name": "Dok Krai reservoir",
+   "ticker": "EASTW",
+   "kind": "reservoir",
+   "centre": [
+    12.90187,
+    101.19196
+   ],
+   "polygon": [
+    [
+     101.15608,
+     12.8695
+    ],
+    [
+     101.22783,
+     12.8695
+    ],
+    [
+     101.22783,
+     12.93424
+    ],
+    [
+     101.15608,
+     12.93424
+    ],
+    [
+     101.15608,
+     12.8695
+    ]
+   ],
+   "resolution_m": 30,
+   "source": "Reservoir named in Eastern Water (EASTW) pipeline network coverage (Bangkok Post, 2015: Nong Pla Lai, Dok Krai, Khlong Yai, Prasae). Outline from OpenStreetMap way 165568164 (อ่างเก็บน้ำดอกกราย), box = outline bounding box plus 0.007 degrees.",
+   "notes": "Water extent proxy. Reservoirs are state owned; EASTW draws and sells from the connected system, so this is a partial, indirect proxy."
+  },
+  {
+   "name": "Prasae reservoir",
+   "ticker": "EASTW",
+   "kind": "reservoir",
+   "centre": [
+    13.02248,
+    101.57461
+   ],
+   "polygon": [
+    [
+     101.52512,
+     12.97038
+    ],
+    [
+     101.6241,
+     12.97038
+    ],
+    [
+     101.6241,
+     13.07458
+    ],
+    [
+     101.52512,
+     13.07458
+    ],
+    [
+     101.52512,
+     12.97038
+    ]
+   ],
+   "resolution_m": 30,
+   "source": "Reservoir named in Eastern Water (EASTW) pipeline network coverage (Bangkok Post, 2015: Nong Pla Lai, Dok Krai, Khlong Yai, Prasae). Outline from OpenStreetMap way 167031623 (อ่างเก็บน้ำประแสร์), box = outline bounding box plus 0.007 degrees.",
+   "notes": "Water extent proxy. Reservoirs are state owned; EASTW draws and sells from the connected system, so this is a partial, indirect proxy."
+  },
+  {
+   "name": "KTIS Takhli cane catchment",
+   "ticker": "KTIS",
+   "kind": "cane",
+   "centre": [
+    15.385,
+    100.255
+   ],
+   "radius_m": 12000,
+   "resolution_m": 100,
+   "source": "Head office and factory at 1/1 Moo 14, Nong Pho Sub-District, Taklee District, Nakhon Sawan (KTIS Annual Report 2020; SEC Thailand company profile market.sec.or.th KTIS). Centre is the OpenStreetMap position of Nong Pho / Takhli built-up area, accurate to a few km only.",
+   "notes": "Cane catchment proxy, radius is an assumption. Mixed land cover: cane, rice, other crops, towns."
+  },
+  {
+   "name": "KSL Nam Phong cane catchment",
+   "ticker": "KSL",
+   "kind": "cane",
+   "centre": [
+    16.715,
+    102.83
+   ],
+   "radius_m": 12000,
+   "resolution_m": 100,
+   "source": "Branch I factory at 43 Moo 10, Namphong-Kranuan Road, Nam Phong, Khon Kaen 40140, max 40,000 t cane/day (KSL 56-1 One Report 2022, p.11 and note 1). Centre is the OpenStreetMap position of Nam Phong town, accurate to a few km only.",
+   "notes": "Cane catchment proxy, radius is an assumption. Mixed land cover."
+  },
+  {
+   "name": "KSL Wang Saphung cane catchment",
+   "ticker": "KSL",
+   "kind": "cane",
+   "centre": [
+    17.3586,
+    101.6049
+   ],
+   "radius_m": 12000,
+   "resolution_m": 100,
+   "source": "Branch II factory at 255 Moo 4, Nong Ya Plong Sub-district, Wangsaphung District, Loei 42130, max 36,000 t cane/day (KSL 56-1 One Report 2022, p.11 and note 1). Centre is the OpenStreetMap hamlet Ban Nong Ya Plong, accurate to a few km only.",
+   "notes": "Cane catchment proxy, radius is an assumption. Hilly terrain, mixed land cover."
+  }
+ ]
+}
