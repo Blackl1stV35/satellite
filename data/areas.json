@@ -174,6 +174,108 @@
    "resolution_m": 100,
    "source": "Branch II factory at 255 Moo 4, Nong Ya Plong Sub-district, Wangsaphung District, Loei 42130, max 36,000 t cane/day (KSL 56-1 One Report 2022, p.11 and note 1). Centre is the OpenStreetMap hamlet Ban Nong Ya Plong, accurate to a few km only.",
    "notes": "Cane catchment proxy, radius is an assumption. Hilly terrain, mixed land cover."
+  },
+  {
+   "name": "Rocket Lab LC-1, Mahia",
+   "ticker": "RKLB",
+   "kind": "site",
+   "centre": [
+    -39.26085,
+    177.86586
+   ],
+   "polygon": [
+    [
+     177.84846,
+     -39.27442
+    ],
+    [
+     177.88326,
+     -39.27442
+    ],
+    [
+     177.88326,
+     -39.24728
+    ],
+    [
+     177.84846,
+     -39.24728
+    ],
+    [
+     177.84846,
+     -39.27442
+    ]
+   ],
+   "resolution_m": 20,
+   "source": "Launch Complex 1, southern Mahia Peninsula, New Zealand. Point 39.26085 S, 177.86586 E from Wikipedia and the Space Devs database; box is 3 km square around it.",
+   "notes": "Launch pad and apron surface change; a small site, so few pixels at 10 m."
+  },
+  {
+   "name": "Rocket Lab Wallops LC-2 and LC-3",
+   "ticker": "RKLB",
+   "kind": "site",
+   "centre": [
+    37.833,
+    -75.4885
+   ],
+   "polygon": [
+    [
+     -75.50556,
+     37.81943
+    ],
+    [
+     -75.47144,
+     37.81943
+    ],
+    [
+     -75.47144,
+     37.84657
+    ],
+    [
+     -75.50556,
+     37.84657
+    ],
+    [
+     -75.50556,
+     37.81943
+    ]
+   ],
+   "resolution_m": 20,
+   "source": "Rocket Lab pads LC-2 (Electron) and LC-3 (Neutron), Wallops Island, Virginia. Point from Wikipedia-derived pad tables (about 37.833 N, 75.488 W); sources differ by a few hundred metres; box is 3 km square.",
+   "notes": "Construction and surface change at the Neutron complex, opened August 2025."
+  },
+  {
+   "name": "Highview Power Carrington",
+   "ticker": "LAES",
+   "kind": "site",
+   "centre": [
+    53.4358,
+    -2.4109
+   ],
+   "polygon": [
+    [
+     -2.429,
+     53.42495
+    ],
+    [
+     -2.3928,
+     53.42495
+    ],
+    [
+     -2.3928,
+     53.44665
+    ],
+    [
+     -2.429,
+     53.44665
+    ],
+    [
+     -2.429,
+     53.42495
+    ]
+   ],
+   "resolution_m": 20,
+   "source": "Trafford Low Carbon Energy Park beside the former Carrington Power Station, Greater Manchester (point 53.4358 N, 2.4109 W from Wikipedia for the power station; the plant site is adjacent); box is 2.4 km square.",
+   "notes": "Construction progress of the liquid air storage plant, started 2025."
   }
  ]
 }

@@ -247,7 +247,7 @@ def compute_metrics(bands: dict, mask: np.ndarray, pixel_area_km2: float) -> dic
     n_ok = int(ok.sum())
     res = {"n_aoi": n_aoi, "n_clear": n_ok, "clear_frac": n_ok / n_aoi if n_aoi else math.nan}
     if n_ok == 0:
-        return res | {"ndvi_mean": math.nan, "water_frac": math.nan, "water_km2": math.nan}
+        return res | {"ndvi_mean": math.nan, "water_frac": math.nan, "water_km2": math.nan, "ndbi_mean": math.nan}
     nd = ndvi(bands["red"], bands["nir"])
     mw = mndwi(bands["green"], bands["swir16"])
     nd[~np.isfinite(nd)] = np.nan
@@ -257,4 +257,10 @@ def compute_metrics(bands: dict, mask: np.ndarray, pixel_area_km2: float) -> dic
     res["ndvi_mean"] = float(np.nanmean(nd[land])) if land.any() else math.nan
     res["water_frac"] = float(water.sum()) / n_ok
     res["water_km2"] = res["water_frac"] * n_aoi * pixel_area_km2
+    # Normalised difference built-up index (SWIR1, NIR): higher for bare ground and built surfaces.
+    sw, nr = bands["swir16"], bands["nir"]
+    with np.errstate(divide="ignore", invalid="ignore"):
+        nb = (sw - nr) / (sw + nr)
+    nb[~np.isfinite(nb)] = np.nan
+    res["ndbi_mean"] = float(np.nanmean(nb[land])) if land.any() else math.nan
     return res

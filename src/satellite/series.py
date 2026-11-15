@@ -57,6 +57,7 @@ def process_month(aoi: AOI, client, period: pd.Period) -> dict:
         "ndvi_mean": m["ndvi_mean"],
         "water_frac": m["water_frac"],
         "water_km2": m["water_km2"],
+        "ndbi_mean": m.get("ndbi_mean", float("nan")),
         "offset": off,
         "status": "ok",
     }
