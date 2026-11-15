@@ -242,40 +242,6 @@
    "resolution_m": 20,
    "source": "Rocket Lab pads LC-2 (Electron) and LC-3 (Neutron), Wallops Island, Virginia. Point from Wikipedia-derived pad tables (about 37.833 N, 75.488 W); sources differ by a few hundred metres; box is 3 km square.",
    "notes": "Construction and surface change at the Neutron complex, opened August 2025."
-  },
-  {
-   "name": "Highview Power Carrington",
-   "ticker": "LAES",
-   "kind": "site",
-   "centre": [
-    53.4358,
-    -2.4109
-   ],
-   "polygon": [
-    [
-     -2.429,
-     53.42495
-    ],
-    [
-     -2.3928,
-     53.42495
-    ],
-    [
-     -2.3928,
-     53.44665
-    ],
-    [
-     -2.429,
-     53.44665
-    ],
-    [
-     -2.429,
-     53.42495
-    ]
-   ],
-   "resolution_m": 20,
-   "source": "Trafford Low Carbon Energy Park beside the former Carrington Power Station, Greater Manchester (point 53.4358 N, 2.4109 W from Wikipedia for the power station; the plant site is adjacent); box is 2.4 km square.",
-   "notes": "Construction progress of the liquid air storage plant, started 2025."
   }
  ]
 }
